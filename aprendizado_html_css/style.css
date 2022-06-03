@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    width: 1100px;
+    margin: auto;
+    background-color: #f7f7f7;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold 700;
+}
+
+article p{
+    text-align: justify;
+    border: #000 solid 2px;
+    border-radius: 10px;
+    padding: 8px 0 8px 8px;
+    background-color: blue;
+    color: white;
+}
+
+article a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+footer{
+    border-top: #000 solid 2px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;
+}
