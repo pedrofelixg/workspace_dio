@@ -1,0 +1,25 @@
+body{
+    width: 550px;
+    margin: auto;
+    padding-top: 6rem;
+    background-color: #f3f3f3;
+    color: #577399;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+form div{
+    margin: 1em 0;
+}
+
+footer{
+    padding: 2rem 0;
+}
+
+footer a{
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css_docs/style.css">
+    <script src="./arquivos_js/calculadora.js"></script>
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+        <p>Utilize o formulário para calcular o seu índice de massa corporéa</p>
+    </header>
+
+    <!--formulário do cálculo-->
+    <form>
+        <div class="nome">
+            <label for="name"><b>Nome</b></label>
+            <input type="text" id="name" class="form-control" placeholder="Nome" aria-label="nome" required>
+        </div>
+
+        <div class="peso">
+            <label for="peso"><b>Informe seu Peso</b></label>
+            <input type="float" id="peso" class="form-control" placeholder="nn.nn" aria-label="peso" required>
+        </div>
+
+        <div class="altura">
+            <label for="altura"><b>Informe sua Altura</b></label>
+            <input type="float" id="altura" class="form-control" placeholder="n.nn" aria-label="altura" required>
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="Calcular IMC">
+    </form>
+    <footer>
+        <P>Desenvolvido por <a href="https://github.com/pedrofelixg">Pedro Gonçalves</a>.</P>
+    </footer>
+</body>
+</html>
