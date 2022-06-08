@@ -16,8 +16,14 @@ form div{
     margin: 1em 0;
 }
 
+details, details p{
+    margin: 1em 0;
+    font-size: 15px;
+}
+
 footer{
-    padding: 2rem 0;
+    padding: 1rem 0;
+    border-top: #577399 solid 1px;
 }
 
 footer a{
