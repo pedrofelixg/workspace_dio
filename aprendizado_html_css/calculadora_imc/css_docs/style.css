@@ -12,6 +12,10 @@ h1{
     font-weight: 900;
 }
 
+h3{
+    margin: 1em 0;
+}
+
 form div{
     margin: 1em 0;
 }

@@ -31,9 +31,9 @@
             <label for="altura"><b>Informe sua Altura</b></label>
             <input type="float" id="altura" class="form-control" placeholder="n.nn" aria-label="altura" required>
         </div>
-
-        <input type="submit" class="btn btn-primary" value="Calcular IMC">
+        <button type="submit" class="btn btn-primary" onclick="getValues()">Calcular</button>
     </form>
+    <h3 id="notice"></h3>
 
     <details>
         <p>Abaixo está uma tabela acerca dos principais dados acerca do imc segundo a OMS</p>
