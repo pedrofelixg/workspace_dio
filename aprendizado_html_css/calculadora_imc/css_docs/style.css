@@ -16,6 +16,11 @@ h3{
     margin: 1em 0;
 }
 
+.form-control{
+    background-color: #f3f3f3;
+    color: #577399;
+}
+
 form div{
     margin: 1em 0;
 }
