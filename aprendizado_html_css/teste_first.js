@@ -22,3 +22,11 @@ var livrosLidos = [
 ]
 
 console.table(livrosLidos);
+
+
+const OBJETO = {
+    chave: "valor"
+};
+ console.log(OBJETO.chave);
+ console.log(OBJETO[chave]);
+ 
