@@ -13,10 +13,6 @@ function getValues() {
     var imcFixo = imc.toFixed(2);
     console.log(imc);
 
-    var notice = document.getElementById("notice");
-    var calculo = "Olá " + nome + " Seu IMC é " + imcFixo;
-    notice.innerHTML = calculo;
-
     if(imc <= 18.5) {
         alert('Você está abaixo do peso ideal');
         } else if(imc > 18.6, imc <= 24.9) {
@@ -32,6 +28,10 @@ function getValues() {
     } else {
         alert("não consegui entender :(");
     }
+
+    var notice = document.getElementById("notice");
+    var calculo = "Olá " + nome + " Seu IMC é " + imcFixo;
+    return notice.innerHTML = calculo;
 }
 
 // não entendo por que assim que clico em calcular o programa reinicia tão rápido, era pra recarregar só com a opção do navegador....

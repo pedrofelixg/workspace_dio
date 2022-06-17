@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
@@ -14,8 +14,6 @@
         <h1>Calculadora de IMC</h1>
         <p>Utilize o formulário para calcular o seu índice de massa corporéa</p>
     </header>
-
-    <!--formulário do cálculo-->
     <form class="form-control">
         <div class="nome">
             <label for="name"><b>Nome</b></label>
@@ -31,7 +29,10 @@
             <label for="altura"><b>Informe sua Altura</b></label>
             <input type="float" id="altura" class="form-control" placeholder="n.nn" aria-label="altura" required>
         </div>
-        <button type="submit" id="click" class="btn btn-primary">Calcular</button>
+
+        <div>
+            <button type="submit" id="click" class="btn btn-primary" onclick>Calcular</button>
+        </div>
     </form>
     <h3 id="notice"></h3>
 
@@ -74,9 +75,8 @@
         <i>Sobre a questão do IMC procure médicos, embora seja um cálculo preciso só ele não basta.</i>
     </details>
     <footer>
-        <i class="fa-brands fa-github"></i>
         <P>Desenvolvido por <a href="https://github.com/pedrofelixg" target="_blank">Pedro Gonçalves</a>.</P>
     </footer>
-    <script src="./arquivos_js/calculadora.js"></script>
 </body>
+<script src="./arquivos_js/calculadora_alt.js"></script>
 </html>
