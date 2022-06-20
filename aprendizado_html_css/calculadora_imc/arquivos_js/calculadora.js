@@ -1,6 +1,6 @@
-const botao = document.getElementById("click");
+/* const botao = document.getElementById("click");
 botao.addEventListener("click", getValues);
-
+ */
 function getValues() {
     var nome = document.getElementById("name").value;
     var peso = document.getElementById("peso").value;

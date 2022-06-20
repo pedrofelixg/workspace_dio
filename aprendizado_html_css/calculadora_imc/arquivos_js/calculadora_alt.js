@@ -25,7 +25,6 @@ function calculaIMC() {
         } else {
             alert("não consegui entender :(");
         }
-        return
     }
 
     function mensagem() {
@@ -33,13 +32,12 @@ function calculaIMC() {
         let notice = document.getElementById('notice');
     
         let mensagem = `Olá ${nome} seu IMC é ${imcFixo}`;
-        return notice.innerHTML = mensagem;
+        notice.innerHTML = mensagem;
     }
 
     comparativo();
     mensagem();
-    return
 }
 
-const botao = document.getElementById('click');
-botao.addEventListener('click', calculaIMC);
+/* const botao = document.getElementById('click');
+botao.addEventListener('click', calculaIMC); */
